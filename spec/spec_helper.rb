@@ -1,4 +1,4 @@
-require_relative '../src/include_all'
+require_relative '../lib/case_model'
 require 'webmock/rspec'
 
 RSpec.configure do |config|
