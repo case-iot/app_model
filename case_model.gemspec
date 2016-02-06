@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'case_model'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2016-01-28'
   s.summary     = 'Resolver for the CASE ecosystem application models'
   s.description = 'Built for the Context-Aware Software Ecosystem. Resolves application model requirements using semantic reasoning.'

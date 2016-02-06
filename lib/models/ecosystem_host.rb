@@ -1,5 +1,7 @@
-class EcosystemHost < Device
-  def initialize(node, repository)
-    super(node, repository)
+module Model
+  class EcosystemHost < Device
+    def initialize(node, repository)
+      super(node, repository)
+    end
   end
 end

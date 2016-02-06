@@ -1,17 +1,19 @@
-class Location
-  attr_reader :query
+module Model
+  class Location
+    attr_reader :query
 
-  include Answer
+    include Answer
 
-  def initialize(node, repository)
-    @query = NodeQuery.new(node, repository)
-  end
+    def initialize(node, repository)
+      @query = NodeQuery.new(node, repository)
+    end
 
-  def name
-    query.value(LV.locationName)
-  end
+    def name
+      query.value(LV.locationName)
+    end
 
-  def name=(value)
-    query.set_value(LV.locationName, value)
+    def name=(value)
+      query.set_value(LV.locationName, value)
+    end
   end
 end
